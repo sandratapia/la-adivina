@@ -1,0 +1,73 @@
+*{
+    font-family: $font-primary;
+}
+.main{
+    text-align: center;
+    background-color: $color-lightgrey;
+    border-top: 2px solid $color-lightpink;
+    .main__sayNumber{
+        padding-top: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .main__say__title{
+            text-align: center;
+            font-size: 25x;
+            width: 100%;
+        }
+    }
+}
+.main__introduceNumber{
+    padding-top: 30px;
+    .main__introduce__title{
+        padding-bottom: 20px;
+    }
+    .main__introduce__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+        input{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .main__number{
+            width: 400px;
+            padding: 7px 0 7px 7px;
+            border: 1px solid $color-lightpink;
+            border-radius: 3px;
+        }
+        .main__button__try{
+            width: 150px;
+            padding: 5px 0 5px 0;
+            border: 1px solid $color-lightpink;
+            background-color: $color-lightpink;
+            border-radius: 5px;
+            &:hover{
+                border: 1px solid $color-white;
+            }
+        }
+        .main__button__reset{
+            width: 150px;
+            padding: 5px 0 5px 0;
+            border: 1px solid $color-lightpink;
+            background-color: $color-lightpink;
+            border-radius: 5px;
+            &:hover{
+                border: 1px solid $color-white;
+            }
+        }
+    }
+    .main__counter__account{
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 20px;
+        .main__try__title{
+            text-align: right;
+            margin-right: 10px;
+            
+        }
+    }
+    
+}

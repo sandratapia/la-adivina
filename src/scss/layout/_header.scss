@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    height: 85px;
+    position: relative;
+    .header__title{
+        height: 75px;
+        font-weight: $semi-bold;
+        font-size: 65px;
+        margin: 0px;
+        margin-right: 30px;
+        font-family: 'La Belle Aurore', cursive;
+        @media all and (min-width:768px){
+            font-size: 80px;
+        }
+    }
+    .pink{
+        background-color: $color-lightpink;
+        position: absolute;
+        z-index: -1;
+        height: 10px;
+        width: 100%;
+    }
+    .header__container{
+        height: 120px;
+        width: 110px;
+        background-image: url("../images/adivina.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+}
